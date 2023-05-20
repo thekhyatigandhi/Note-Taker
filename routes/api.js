@@ -9,14 +9,21 @@ console.log(uuidv4());
 router.get("/notes", (req, res) => {
   res.json(notes);
 });
+// POST /api/notes (return new note, add to db.json, return to client, give note unique ID when saved)
 
 router.post("/notes", (req, res) => {
+  // title and text for request body
   const { title, text } = req.body;
+
+  // if title and text exist, add unique id
   if (title && test) {
     const newNote = {
       title,
       text,
       id: uuidv4(),
     };
+
+    // push new note into notes
+    notes.push(newNote);
   }
 });

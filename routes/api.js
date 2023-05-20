@@ -9,3 +9,14 @@ console.log(uuidv4());
 router.get("/notes", (req, res) => {
   res.json(notes);
 });
+
+router.post("/notes", (req, res) => {
+  const { title, text } = req.body;
+  if (title && test) {
+    const newNote = {
+      title,
+      text,
+      id: uuidv4(),
+    };
+  }
+});

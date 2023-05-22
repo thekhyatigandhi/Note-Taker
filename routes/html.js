@@ -3,7 +3,6 @@ const router = express.Router();
 
 const path = require("path");
 // node:path module provides utilities for working with file and directory paths
-const path = require("path");
 
 // GET method to return index.html
 router.get("/", (req, res) => {

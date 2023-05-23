@@ -1,11 +1,9 @@
-// including express
+// include express and define port
 const express = require("express");
 const app = express();
-
-// defining the port - local port 3001 and port for heroku
 const PORT = process.env.PORT || 3001;
 
-// applying middleware for parsing JSON and urlencoded form data
+// middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));

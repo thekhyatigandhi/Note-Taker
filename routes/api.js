@@ -16,7 +16,7 @@ router.post("/notes", (req, res) => {
   const { title, text } = req.body;
 
   // if title and text exist, add unique id
-  if (title && test) {
+  if (title && text) {
     const newNote = {
       title,
       text,

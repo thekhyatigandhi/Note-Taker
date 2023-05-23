@@ -20,6 +20,8 @@ This Note Taker application can be used to write and save notes. This applicatio
 
 The following video shows the application's appearance and functionality:
 
+![portfolio demo](./public/assets/Note-Taker.gif)
+
 ## Technologies Used
 
 Javascript </br>

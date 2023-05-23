@@ -1,12 +1,13 @@
-# SVG-Logo-Maker
+# SVG-Logo-Maker</br>
 
-## Description
-
-This Note Taker application can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.</br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en)
 [![Express Badge](https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=flat)](https://expressjs.com/)
 [![Heroku Badge](https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=fff&style=flat)](https://heroku.com)
+
+## Description
+
+This Note Taker application can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.</br>
 
 - [Application](#Application)
 - [Technologies Used](#TechnologiesUsed)
